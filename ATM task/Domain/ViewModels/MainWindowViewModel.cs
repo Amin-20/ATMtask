@@ -15,6 +15,10 @@ namespace ATM_task.Domain.ViewModels
         public RelayCommand LoadCommand { get; set; }
         public RelayCommand TransferCommand { get; set; }
 
+        public Card Card { get; set; }
+
+        public Mutex Mutex { get; set; }
+
         private string name;
 
         public string Name
@@ -56,10 +60,6 @@ namespace ATM_task.Domain.ViewModels
         }
 
         bool hasPressedTransferButton = false;
-
-        public Card Card { get; set; }
-
-        public Mutex Mutex { get; set; }
 
         public MainWindowViewModel()
         {
