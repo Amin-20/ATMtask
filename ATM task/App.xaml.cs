@@ -28,7 +28,7 @@ namespace ATM_task
 
             if (DB.customerRepository.GetAll().Count == 0)
             {
-                DB.customerRepository.AddData(new Customer { FullName = "Amin Atakisjiyev" });
+                DB.customerRepository.AddData(new Customer { FullName = "Amin Atakishiyev" });
                 DB.customerRepository.AddData(new Customer { FullName = "Eynal Baxshiyev" });
                 DB.customerRepository.AddData(new Customer { FullName = "Murad Azizov" });
                 DB.customerRepository.AddData(new Customer { FullName = "Vusal Haciyev" });
